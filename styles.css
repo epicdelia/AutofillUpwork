@@ -10,33 +10,12 @@ body {
   }
 
   div {
-    cursor: pointer;
     text-align: center;
-    padding: 1px 3px;
     font-family: sans-serif;
     font-size: 0.8em;
-    width: 100px;
     margin-top: 1px;
     background: #cccccc;
-  }
-  div:hover {
-    background: #aaaaaa;
-  }
-  #red {
-    border: 1px solid red;
-    color: red;
-  }
-  #blue {
-    border: 1px solid blue;
-    color: blue;
-  }
-  #green {
-    border: 1px solid green;
-    color: green;
-  }
-  #yellow {
-    border: 1px solid yellow;
-    color: yellow;
+    padding: 5px;
   }
 
   *,
@@ -48,8 +27,7 @@ body {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
-  color: #384047;
+  font-family: 'Roboto', sans-serif;
 }
 
 form {
@@ -155,4 +133,22 @@ label.light {
   form {
     max-width: 480px;
   }
+}
+
+.front-button{
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+.front-button:hover {
+  background-color: #4bc230;
 }
