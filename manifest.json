@@ -1,10 +1,23 @@
 {
+  "manifest_version": 2,
   "name": "AutoFiller for Upwork",
   "description": "Automatically fill your Upwork proposals with a template",
   "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["options.js"],
+      "run_at": "document_end"
+    }
+  ],
   "permissions": [
     "activeTab",  
-    "storage"
+    "storage",
+    "tabs",
+    "notifications",
+    "http://*/*",
+    "https://*/*",
+    "unlimitedStorage"
   ],
   "options_page": "options.html",
   "browser_action": {
@@ -14,7 +27,5 @@
   },
   "background": {
     "scripts": ["popup.js"]
-  },
-  
-  "manifest_version": 2
+  }
 }

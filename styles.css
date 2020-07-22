@@ -1,24 +1,24 @@
 body {
-    overflow: hidden;
-    margin: 0px;
-    padding: 0px;
-    background: white;
-  }
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+}
 
-  div:first-child {
-    margin-top: 0px;
-  }
+div:first-child {
+  margin-top: 0px;
+}
 
-  div {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 0.8em;
-    margin-top: 1px;
-    background: #cccccc;
-    padding: 5px;
-  }
+div {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  margin-top: 1px;
+  background: #cccccc;
+  padding: 5px;
+}
 
-  *,
+*,
 *:before,
 *:after {
   -moz-box-sizing: border-box;
@@ -155,4 +155,14 @@ label.light {
 
 .options{
   padding: 10%;
+  overflow: visible;
+
+}
+
+.options div {
+  text-align: left;
+  font-size: 0.9em;
+  margin-top: 1px;
+  background: #FFFFFF;
+  padding: 5px;
 }
