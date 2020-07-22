@@ -152,3 +152,7 @@ label.light {
 .front-button:hover {
   background-color: #4bc230;
 }
+
+.options{
+  padding: 10%;
+}
