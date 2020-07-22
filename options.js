@@ -16,13 +16,12 @@ function save_options() {
       }, 750);
     });
   }
-  
   // Restores select box and checkbox state using the preferences
   // stored in chrome.storage.
   function restore_options() {
     chrome.storage.sync.get({
-      bio: 'Hello.',
-      sec: 'test'
+      bio: '',
+      sec: ''
     }, function(items) {
       document.getElementById('bio').value = items.bio;
       document.getElementById('sec').value = items.sec;
