@@ -1,7 +1,5 @@
 'use strict';
 
-// import fillForm from "./script";
-
 function click(e) {  
   chrome.tabs.executeScript(null, {
     code: `var config = ${JSON.stringify(e.target.id.toString())};`
