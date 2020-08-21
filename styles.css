@@ -1,3 +1,7 @@
+.title{
+  color: black;
+}
+
 body {
   overflow: hidden;
   margin: 0px;
@@ -18,6 +22,9 @@ div {
   padding: 5px;
 }
 
+div#editor {
+  display: none;
+}
 *,
 *:before,
 *:after {
@@ -135,7 +142,7 @@ label.light {
   }
 }
 
-.front-button{
+.front-button {
   color: #FFF;
   background-color: #4bc970;
   font-size: 18px;
@@ -153,8 +160,8 @@ label.light {
   background-color: #4bc230;
 }
 
-.options{
-  padding: 10%;
+.options {
+  padding: 8%;
   overflow: visible;
 
 }
@@ -165,4 +172,45 @@ label.light {
   margin-top: 1px;
   background: #FFFFFF;
   padding: 5px;
+}
+
+.editing{
+  max-width: 20%;
+  max-height: 20%;
+  margin: 0px 0px 30px;
+  height: 58px;
+  width: 387px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 15px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+.profile{
+  display: inline;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%!important;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
 }

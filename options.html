@@ -1,32 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Extension Options</title>
+    <title > Extension Options</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="jquery.min.js"></script>
 </head>
 <body class = "options">
+<div class="header">
+    <h1 class="title">UpWork Autofill Options</h1>
+</div>
 <div id="data">
     <div class="category">
-        <legend><span class="number">1</span> Profile 1</legend>
-        <label for="bio">Cover Letter:</label>
-        <textarea id="bio" name="user_bio"></textarea>
+        <legend>
+            <span class="number">1</span>
+            <label id="profile0" class="profile">Profile 1</label>
+        </legend>
+        <div class="info_option">
+            <label for="bio0">Cover Letter:</label>
+            <textarea id="bio0" name="user_bio"></textarea>
+        </div>
     </div>
 
     <div class="category">
-        <legend><span class="number">2</span> Profile 2</legend>
-        <label for="sec">Cover Letter 2:</label>
-        <textarea id="sec" name="user_bio"></textarea>
-    </div>
-
-    <div class="category">
-        <legend><span class="number">3</span> Profile 3</legend>
-        <label for="next">Cover Letter 3:</label>
-        <textarea id="next" name="user_bio"></textarea>
+        <legend>
+            <span class="number">2</span>
+            <label id="profile1" class="profile">Profile 2</label>
+        </legend>
+        <div class="info_option">
+            <label for="bio1">Cover Letter:</label>
+            <textarea id="bio1" name="user_bio"></textarea>
+        </div>
     </div>
 </div>
 
+<div class="header">
+    <input type="text" id="myInput" placeholder="Add New Profile">
+    <span id="add_new_profile" onclick="create_new_profile" class="addBtn">Add</span>
+</div>
+
 <div id="status"></div>
-    <button id="add_item">Add New</button>
     <button id="save">Save</button>
     <script src="options.js"></script>
     <script src="popup.js"></script>

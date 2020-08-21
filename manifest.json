@@ -6,7 +6,9 @@
   "content_scripts": [
     {
       "matches": ["https://*/*", "http://*/*"],
-      "js": ["options.js"],
+      "js": [
+        "jquery.min.js",
+        "options.js" ],
       "run_at": "document_end"
     }
   ],
