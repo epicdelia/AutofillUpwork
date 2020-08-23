@@ -3,21 +3,10 @@
 console.log(`TEST ${config}`)
 
 chrome.storage.sync.get({
-    [config]: ""
+    [config]: "",
+    arr: ''
   }, function(items) {
-    console.log("restoring values " + items[config]);
-    document.getElementById('coverLetter').value = items[config]
+    console.log("restoring values", items);
+    document.getElementById('coverLetter').value = items.arr[config].bio;
   });
 
-
-// const fillForm = (id) => {
-//     console.log(id)
-//     chrome.storage.sync.get({
-//       [config]: ""
-//     }, function(items) {
-//         console.log("restoring values " +  items.bio);
-//         document.getElementById('coverLetter').value = items.bio
-//       });
-// }
-//
-// export default fillForm

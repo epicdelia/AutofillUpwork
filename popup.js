@@ -1,8 +1,8 @@
 'use strict';
 
-function click(e) {  
+const click = (index) => {
   chrome.tabs.executeScript(null, {
-    code: `var config = ${JSON.stringify(e.target.id.toString())};`
+    code: `var config = ${index};`
   });
   chrome.tabs.executeScript(null,
       {file:"script.js"});
@@ -10,9 +10,11 @@ function click(e) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-  var divs = document.querySelectorAll('div.popup');
+  const divs = document.querySelectorAll('div.popup');
   console.log(divs)
-  for (var i = 0; i < divs.length; i++) {
-    divs[i].addEventListener('click', click);
+  for (let i = 0; i < divs.length; i++) {
+    console.log(i)
+    divs[i].addEventListener('click', () => click(i));
   }
 });
+
