@@ -16,7 +16,8 @@ function save_options() {
     arr: arr
   }, function () {
     // Update status to let user know options were saved.
-    $("#status").textContent = 'Options saved.';
+    var status = document.getElementById('status');
+    status.textContent = 'Options saved.';
     setTimeout(function () {
       status.textContent = '';
     }, 750);
