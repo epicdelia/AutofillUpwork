@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b63b04d-4472-4060-af79-1574288a1b38" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1f0amO9oXR4jZZH5LO4AoXxvk5m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b63b04d-4472-4060-af79-1574288a1b38" name="Default Changelist" comment="" />
+      <created>1595357621277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595357621277</updated>
+      <workItem from="1595357624448" duration="1467000" />
+      <workItem from="1595416109629" duration="1376000" />
+      <workItem from="1595428101694" duration="9061000" />
+      <workItem from="1596039102777" duration="630000" />
+      <workItem from="1597495807359" duration="797000" />
+      <workItem from="1597502532773" duration="957000" />
+      <workItem from="1597523287808" duration="1483000" />
+      <workItem from="1597581640843" duration="4547000" />
+      <workItem from="1597689120563" duration="6383000" />
+      <workItem from="1597939741825" duration="8427000" />
+      <workItem from="1598023152308" duration="19887000" />
+      <workItem from="1598188361667" duration="2795000" />
+      <workItem from="1598192405457" duration="6535000" />
+      <workItem from="1598257172993" duration="476000" />
+      <workItem from="1598274139378" duration="1508000" />
+      <workItem from="1598286750697" duration="165000" />
+      <workItem from="1598300811473" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598202439755">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="304" y="165" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.960@0.23.1680.960" timestamp="1598202439755" />
+    <state x="578" y="312" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1595428631508">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="312" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1680.1050@0.0.1680.1050" timestamp="1595428631508" />
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog" timestamp="1598189945164">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="DiffContextDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598189945164" />
+    <state x="349" y="164" key="SettingsEditor" timestamp="1595434530328">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1595434530328" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1597583726986">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1597583726986" />
+    <state x="100" y="114" width="1480" height="779" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1598257675651">
+      <screen x="0" y="23" width="1680" height="961" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1598125555351" />
+    <state x="100" y="114" width="1480" height="778" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.960@0.23.1680.960" timestamp="1598203024885" />
+    <state x="100" y="114" width="1480" height="779" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.961@0.23.1680.961" timestamp="1598257675651" />
+    <state x="541" y="279" width="679" height="502" key="find.popup" timestamp="1598201244325">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="541" y="280" width="679" height="548" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598180296235" />
+    <state x="541" y="279" width="679" height="502" key="find.popup/0.23.1680.960@0.23.1680.960" timestamp="1598201244325" />
+    <state x="541" y="282" width="679" height="508" key="find.popup/0.23.1680.972@0.23.1680.972" timestamp="1597779351739" />
+    <state x="640" y="390" key="scopes" timestamp="1595428785700">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="640" y="390" key="scopes/0.0.1680.1050@0.0.1680.1050" timestamp="1595428785700" />
+    <state x="505" y="236" width="670" height="619" key="search.everywhere.popup" timestamp="1598202812158">
+      <screen x="0" y="23" width="1680" height="960" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598051927675" />
+    <state x="505" y="236" width="670" height="619" key="search.everywhere.popup/0.23.1680.960@0.23.1680.960" timestamp="1598202812158" />
+  </component>
+</project>
