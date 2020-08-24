@@ -5,29 +5,33 @@
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["https://*/*", "http://*/*"],
+      "matches": [
+        "https://*/*",
+        "http://*/*"
+      ],
       "js": [
         "jquery.min.js",
-        "options.js"],
+        "options.js"
+      ],
       "run_at": "document_end"
     }
   ],
   "permissions": [
-    "activeTab",  
+    "activeTab",
     "storage",
     "tabs",
-    "notifications",
-    "http://*/*",
-    "https://*/*",
-    "unlimitedStorage"
+    "http://www.upwork.com/",
+    "https://www.upwork.com/"
   ],
   "options_page": "options.html",
   "browser_action": {
-      "default_title": "Autofill this page from template",
-      "default_icon": "icon.png",
-      "default_popup": "popup.html"
+    "default_title": "Autofill this page from template",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
   },
   "background": {
-    "scripts": ["popup.js"]
+    "scripts": [
+      "popup.js"
+    ]
   }
 }

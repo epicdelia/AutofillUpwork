@@ -22,9 +22,6 @@ div {
   padding: 5px;
 }
 
-div#editor {
-  display: none;
-}
 *,
 *:before,
 *:after {
@@ -51,15 +48,7 @@ h1 {
 }
 
 input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="datetime"],
-input[type="email"],
 input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="time"],
-input[type="url"],
 textarea,
 select {
   background: rgba(255, 255, 255, 0.1);
@@ -101,6 +90,11 @@ button {
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
   margin-bottom: 10px;
 }
+
+button:hover{
+  background-color: #5fcf80;
+}
+
 
 fieldset {
   margin-bottom: 30px;
@@ -200,6 +194,22 @@ label.light {
   background-color: #bbb;
 }
 
+/* Style the "Reset" button */
+.resetBtn {
+  padding: 5px;
+  width: 25%;
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.resetBtn:hover {
+  background-color: red;
+}
+
+
 .profile{
   display: inline;
 }
@@ -214,3 +224,5 @@ input {
   float: left;
   font-size: 16px;
 }
+
+
