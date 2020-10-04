@@ -93,9 +93,9 @@ function create_profiles_in_DOM(n,profile) {
 /**
  * Main functions and event listeners
  */
-window.onload = function() {
+window.addEventListener('load', () => {
   restore_options();
   $('#save').click(save_options);
   $('#add_new_profile').click(create_new_profile);
   $('#reset').click(reset);
-};
+}, false);
