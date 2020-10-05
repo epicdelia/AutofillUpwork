@@ -7,6 +7,6 @@ A simple Chrome Extension to make applying to Upwork jobs faster, easier and mor
 
 Options page
 
-![Example of Autofiller 3](/images/example3.png)
+![Example of Autofiller 3](/images/optionspage.png)
 ![Example of Autofiller 4](/images/example4.png)
 
