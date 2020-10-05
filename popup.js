@@ -26,6 +26,7 @@ window.onload = function() {
     arr: ''
   }, function(data) {
     if(data.arr){
+      $("#no_profiles").remove();
       for (var i = 0; i < data.arr.length; i++) {
         build_popup(i,data.arr[i].name)
       }

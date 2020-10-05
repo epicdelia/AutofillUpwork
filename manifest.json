@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "AutoFiller for Upwork",
+  "name": "Upwork AutoFiller",
   "description": "Automatically fill your Upwork proposals with a template",
   "version": "1.0",
   "content_scripts": [
